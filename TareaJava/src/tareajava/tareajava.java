@@ -20,7 +20,7 @@ public class tareajava {
         String frase="Hola mi nombre es Brenda";
         String[] arr=frase.split(" ");
         
-        File archivo = new File("C:\\Users\\Gambo\\Desktop\\Tarea Pedro\\texto.txt");
+        File archivo = new File("C:\\Users\\Gambo\\Desktop\\Tarea Pedro\\Java\\texto.txt");
         FileReader fr = new FileReader(archivo);
         BufferedReader br = new BufferedReader(fr);
 
